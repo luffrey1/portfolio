@@ -36,7 +36,7 @@ jobs:
       - name: List output directory
         run: ls -la out || echo "Out directory not found"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v1
         with:
           path: ./out
 
