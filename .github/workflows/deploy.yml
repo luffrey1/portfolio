@@ -25,10 +25,16 @@ jobs:
         with:
           node-version: "18"
           cache: 'npm'
+      - name: List files
+        run: ls -la
       - name: Install dependencies
         run: npm ci
+      - name: Check Next.js config
+        run: cat next.config.js
       - name: Build with Next.js
         run: npm run build
+      - name: List output directory
+        run: ls -la out || echo "Out directory not found"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:

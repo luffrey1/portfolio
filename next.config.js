@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Necesario para exportación estática
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio/' : '',
+  basePath: '', // No es necesario especificar basePath si el sitio está en la raíz
+  assetPrefix: '', // No es necesario especificar assetPrefix si el sitio está en la raíz
 }
 
 module.exports = nextConfig 
