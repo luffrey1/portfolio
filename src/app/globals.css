@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 248, 248, 248;
+  --background-start-rgb: 18, 18, 18;
+  --background-end-rgb: 10, 10, 10;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 248, 248, 248;
+    --background-start-rgb: 18, 18, 18;
+    --background-end-rgb: 10, 10, 10;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* Glassmorphism */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.dark .glassmorphism {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Neobrutalismo */
+.neobrutal {
+  border: 2px solid #ffffff;
+  box-shadow: 4px 4px 0px #ffffff;
+  transition: all 0.2s ease;
+}
+
+.neobrutal:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #ffffff;
+}
+
+.dark .neobrutal {
+  border: 2px solid #00eeff;
+  box-shadow: 4px 4px 0px #00eeff;
+}
+
+.dark .neobrutal:hover {
+  box-shadow: 6px 6px 0px #00eeff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--background-start-rgb));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.typing-animation {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3.5s steps(40, end);
+}
+
+/* Transitions */
+.page-transition {
+  transition: all 0.5s ease;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+} 
