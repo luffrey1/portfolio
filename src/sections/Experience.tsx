@@ -98,8 +98,10 @@ export default function Experience() {
 
   return (
     <section id="experience" className="py-20 bg-primary-dark relative overflow-hidden">
-      {/* Particles Background */}
-      <MiniParticles variant="blue" className="opacity-70" />
+      {/* Mini partículas */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <MiniParticles colors={["#5D5DFF", "#4040B2", "#7878FF"]} className="opacity-70" />
+      </div>
       
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 w-32 h-32 rounded-full bg-accent-blue/10 blur-3xl"></div>

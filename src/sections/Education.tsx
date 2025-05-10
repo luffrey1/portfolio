@@ -85,7 +85,7 @@ export default function Education() {
   return (
     <section id="education" className="py-20 bg-primary-dark relative overflow-hidden">
       {/* Particles Background */}
-      <MiniParticles variant="green" className="opacity-60" />
+      <MiniParticles colors={["#4CAF50", "#8BC34A", "#2E7D32"]} className="opacity-60" />
       
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 w-36 h-36 rounded-full bg-accent-green/10 blur-3xl"></div>
