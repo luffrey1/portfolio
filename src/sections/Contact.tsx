@@ -194,7 +194,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 bg-primary-dark relative overflow-hidden">
       {/* Particles Background */}
-      <MiniParticles variant="purple" className="opacity-60" />
+      <MiniParticles colors={["#8A2BE2", "#9370DB", "#6A0DAD"]} className="opacity-60" />
       
       {/* Decorative elements */}
       <div className="absolute top-20 right-10 w-36 h-36 rounded-full bg-accent-purple/10 blur-3xl"></div>
