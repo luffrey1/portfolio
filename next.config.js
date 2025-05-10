@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Necesario para exportación estática
   },
-  basePath: '', // No es necesario especificar basePath si el sitio está en la raíz
-  assetPrefix: '', // No es necesario especificar assetPrefix si el sitio está en la raíz
+  basePath: '/portfolio', // Ruta base para GitHub Pages
+  assetPrefix: '/portfolio/', // Prefijo para los assets en GitHub Pages
 }
 
 module.exports = nextConfig 
