@@ -94,6 +94,20 @@ export default function Projects() {
       color: "from-yellow-600 to-orange-600",
     },
     {
+      id: "lexJuris",
+      title: "LexJuris Bufete de Abogados",
+      description: "Diseño elegante y profesional para un bufete de abogados, con interfaz minimalista y experiencia de usuario optimizada. Desarrollo frontend con React y diseño UI/UX personalizado.",
+      image: "/portfolio/images/projects/abogado.webp",
+      technologies: ["Bootstrap", "JavaScript", "CSS", "HTML", "Responsive Design"],
+      links: {
+        live: "https://luffrey1.github.io/LexJuris/",
+      },
+      featured: true,
+      category: "frontend",
+      icons: [ <FaGlobe key="globe" />, <FaDesktop key="desktop" />, <FaCode key="code" />],
+      color: "from-yellow-600 to-orange-600",
+    },
+    {
       id: "vinedos",
       title: "Viñedos & Cabañas",
       description: "Plataforma de reservas para un complejo de viñedos y cabañas desarrollado como proyecto de máster para un conocido. Incluye sistema de reservas, galería interactiva y experiencia de usuario personalizada.",
