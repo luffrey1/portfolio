@@ -80,6 +80,20 @@ export default function Projects() {
       color: "from-green-600 to-teal-600",
     },
     {
+      id: "taskflow",
+      title: "TaskFlow - Gestión de Tareas",
+      description: "Landing page moderna y responsive para una plataforma de gestión de tareas, desarrollada con React, Vite, Tailwind CSS y Framer Motion, con diseño minimalista, modo oscuro, animaciones fluidas y componentes interactivos optimizada para todos los dispositivos.",
+      image: "/portfolio/images/projects/taskflow.webp",
+      technologies: ["React", "Vite", "Tailwind CSS", "Framer Motion", "JavaScript"],
+      links: {
+        live: "https://luffrey1.github.io/taskflow/",
+      },
+      featured: true,
+      category: "frontend",
+      icons: [<SiReact key="react" />, <SiTailwindcss key="tailwind" />, <FaGlobe key="globe" />, <FaDesktop key="desktop" />],
+      color: "from-sky-600 to-indigo-600",
+    },
+    {
       id: "luxe",
       title: "Luxe - Tienda de Moda",
       description: "Diseño elegante y profesional para una tienda de moda en línea, con interfaz minimalista y experiencia de usuario optimizada. Desarrollo frontend con React y diseño UI/UX personalizado.",
