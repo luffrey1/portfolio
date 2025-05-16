@@ -69,7 +69,7 @@ export default function Projects() {
       id: "goldney",
       title: "Goldney.net",
       description: "Sitio web corporativo desarrollado para Goldney, con diseño moderno y responsive. Implementación de SEO técnico y optimización de rendimiento para mejorar la visibilidad online y la experiencia de usuario.",
-      image: "/portfolio/images/projects/goldneyy.png",
+      image: "/portfolio/images/projects/goldneyy.PNG",
       technologies: ["WordPress", "PHP", "CSS", "JavaScript", "SEO"],
       links: {
         live: "https://goldney.net",
@@ -83,7 +83,7 @@ export default function Projects() {
       id: "luxe",
       title: "Luxe - Tienda de Moda",
       description: "Diseño elegante y profesional para una tienda de moda en línea, con interfaz minimalista y experiencia de usuario optimizada. Desarrollo frontend con React y diseño UI/UX personalizado.",
-      image: "/portfolio/images/projects/luxe.png",
+      image: "/portfolio/images/projects/luxe.PNG",
       technologies: ["Bootstrap", "JavaScript", "CSS", "HTML", "Responsive Design"],
       links: {
         live: "https://luffrey1.github.io/luxe/",
@@ -97,7 +97,7 @@ export default function Projects() {
       id: "vinedos",
       title: "Viñedos & Cabañas",
       description: "Plataforma de reservas para un complejo de viñedos y cabañas desarrollado como proyecto de máster para un conocido. Incluye sistema de reservas, galería interactiva y experiencia de usuario personalizada.",
-      image: "/portfolio/images/projects/vinacabana.png",
+      image: "/portfolio/images/projects/vinacabana.PNG",
       technologies: ["Bootstrap", "JavaScript", "CSS", "HTML", "Responsive Design"],
       links: {
         live: "https://luffrey1.github.io/vinacabana/",
