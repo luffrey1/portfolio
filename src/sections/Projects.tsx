@@ -55,7 +55,7 @@ export default function Projects() {
       id: "ldap-tfg",
       title: "Sistema de Gestión LDAP",
       description: "Aplicación desarrollada para el centro educativo que permite la gestión de usuarios LDAP en Ubuntu, monitorización de equipos, ejecución de comandos masivos y organización de alumnos. Proyecto final para el Grado Superior en Desarrollo de Aplicaciones Web.",
-      image: "/images/projects/LDAP.webp",
+      image: "/portfolio/images/projects/LDAP.webp",
       technologies: ["PHP", "Laravel", "Docker", "LDAP", "Ubuntu", "Shell Script"],
       links: {
         github: "https://github.com/luffrey1/LDAP-TFG",
@@ -69,7 +69,7 @@ export default function Projects() {
       id: "goldney",
       title: "Goldney.net",
       description: "Sitio web corporativo desarrollado para Goldney, con diseño moderno y responsive. Implementación de SEO técnico y optimización de rendimiento para mejorar la visibilidad online y la experiencia de usuario.",
-      image: "/images/projects/goldney-project.jpg",
+      image: "/portfolio/images/projects/goldneyy.png",
       technologies: ["WordPress", "PHP", "CSS", "JavaScript", "SEO"],
       links: {
         live: "https://goldney.net",
@@ -80,18 +80,32 @@ export default function Projects() {
       color: "from-green-600 to-teal-600",
     },
     {
-      id: "portfolio",
-      title: "Portfolio Personal",
-      description: "Portfolio profesional desarrollado con Next.js y React, implementando diseño moderno con glassmorphism y neobrutalism.",
-      image: "/images/react-icon.svg",
-      technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      id: "luxe",
+      title: "Luxe - Tienda de Moda",
+      description: "Diseño elegante y profesional para una tienda de moda en línea, con interfaz minimalista y experiencia de usuario optimizada. Desarrollo frontend con React y diseño UI/UX personalizado.",
+      image: "/portfolio/images/projects/luxe.png",
+      technologies: ["Bootstrap", "JavaScript", "CSS", "HTML", "Responsive Design"],
       links: {
-        github: "https://github.com/luffrey1/portfolio",
+        live: "https://luffrey1.github.io/luxe/",
       },
       featured: true,
       category: "frontend",
-      icons: [<SiReact key="react" />, <SiNextdotjs key="next" />, <SiTailwindcss key="tailwind" />, <FaCode key="code" />],
-      color: "from-accent-blue to-blue-600",
+      icons: [ <FaGlobe key="globe" />, <FaDesktop key="desktop" />, <FaCode key="code" />],
+      color: "from-yellow-600 to-orange-600",
+    },
+    {
+      id: "vinedos",
+      title: "Viñedos & Cabañas",
+      description: "Plataforma de reservas para un complejo de viñedos y cabañas desarrollado como proyecto de máster para un conocido. Incluye sistema de reservas, galería interactiva y experiencia de usuario personalizada.",
+      image: "/portfolio/images/projects/vinacabana.png",
+      technologies: ["Bootstrap", "JavaScript", "CSS", "HTML", "Responsive Design"],
+      links: {
+        live: "https://luffrey1.github.io/vinacabana/",
+      },
+      featured: true,
+      category: "frontend",
+      icons: [<SiNextdotjs key="next" />, <SiTailwindcss key="tailwind" />, <FaGlobe key="globe" />, <FaServer key="server" />],
+      color: "from-green-800 to-emerald-600",
     },
   ];
 
