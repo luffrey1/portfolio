@@ -94,6 +94,20 @@ export default function Projects() {
       color: "from-sky-600 to-indigo-600",
     },
     {
+      id: "naturaglow",
+      title: "NaturaGlow - Tienda de Cosméticos",
+      description: "Tienda de cosméticos minimalista, moderna y agradable visualmente. Desarrollada con Bootstrap, HTML, CSS y JavaScript. Diseño responsive y experiencia de usuario optimizada para todos los dispositivos.",
+      image: "/portfolio/images/projects/naturaglow.webp",
+      technologies: ["Bootstrap", "HTML", "CSS", "JavaScript", "Responsive Design"],
+      links: {
+        live: "https://luffrey1.github.io/naturaglow/",
+      },
+      featured: true,
+      category: "frontend",
+      icons: [<FaGlobe key="globe" />, <FaDesktop key="desktop" />, <FaCode key="code" />],
+      color: "from-pink-400 to-fuchsia-600",
+    },
+    {
       id: "luxe",
       title: "Luxe - Tienda de Moda",
       description: "Diseño elegante y profesional para una tienda de moda en línea, con interfaz minimalista y experiencia de usuario optimizada. Desarrollo frontend con React y diseño UI/UX personalizado.",
@@ -134,20 +148,6 @@ export default function Projects() {
       category: "frontend",
       icons: [<SiNextdotjs key="next" />, <SiTailwindcss key="tailwind" />, <FaGlobe key="globe" />, <FaServer key="server" />],
       color: "from-green-800 to-emerald-600",
-    },
-    {
-      id: "naturaglow",
-      title: "NaturaGlow - Tienda de Cosméticos",
-      description: "Tienda de cosméticos minimalista, moderna y agradable visualmente. Desarrollada con Bootstrap, HTML, CSS y JavaScript. Diseño responsive y experiencia de usuario optimizada para todos los dispositivos.",
-      image: "/portfolio/images/projects/naturaglow.webp",
-      technologies: ["Bootstrap", "HTML", "CSS", "JavaScript", "Responsive Design"],
-      links: {
-        live: "https://luffrey1.github.io/naturaglow/",
-      },
-      featured: true,
-      category: "frontend",
-      icons: [<FaGlobe key="globe" />, <FaDesktop key="desktop" />, <FaCode key="code" />],
-      color: "from-pink-400 to-fuchsia-600",
     },
   ];
 
