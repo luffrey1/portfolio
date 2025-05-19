@@ -21,7 +21,7 @@ const socialLinks = [
     label: "Email",
   },
   {
-    href: "/images/Daniel_Gheorghe_Desarrollador_Web.pdf",
+    href: "/portfolio/images/Daniel_Gheorghe_Desarrollador_Web.pdf",
     icon: <FaFileAlt className="w-5 h-5" />,
     label: "CV",
     isDownload: true,

@@ -226,7 +226,7 @@ export default function Hero() {
               </motion.a>
               
               <motion.a
-                href="/images/Daniel_Gheorghe_Desarrollador_Web.pdf"
+                href="/portfolio/images/Daniel_Gheorghe_Desarrollador_Web.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Daniel_Gheorghe_CV.pdf"

@@ -101,7 +101,7 @@ export default function About() {
             
             <motion.div variants={itemVariants} className="flex space-x-4">
               <motion.a
-                href="/images/Daniel_Gheorghe_Desarrollador_Web.pdf"
+                href="/portfolio/images/Daniel_Gheorghe_Desarrollador_Web.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 bg-accent-blue text-primary-dark font-medium rounded-2xl neobrutal dark:border-accent-blue hover:translate-y-[-2px] transition-all hover:shadow-lg hover:shadow-accent-blue/20"
