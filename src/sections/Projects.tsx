@@ -135,6 +135,20 @@ export default function Projects() {
       icons: [<SiNextdotjs key="next" />, <SiTailwindcss key="tailwind" />, <FaGlobe key="globe" />, <FaServer key="server" />],
       color: "from-green-800 to-emerald-600",
     },
+    {
+      id: "naturaglow",
+      title: "NaturaGlow - Tienda de Cosméticos",
+      description: "Tienda de cosméticos minimalista, moderna y agradable visualmente. Desarrollada con Bootstrap, HTML, CSS y JavaScript. Diseño responsive y experiencia de usuario optimizada para todos los dispositivos.",
+      image: "/portfolio/images/projects/naturaglow.webp",
+      technologies: ["Bootstrap", "HTML", "CSS", "JavaScript", "Responsive Design"],
+      links: {
+        live: "https://luffrey1.github.io/naturaglow/",
+      },
+      featured: true,
+      category: "frontend",
+      icons: [<FaGlobe key="globe" />, <FaDesktop key="desktop" />, <FaCode key="code" />],
+      color: "from-pink-400 to-fuchsia-600",
+    },
   ];
 
   const filteredProjects = activeFilter === "all" 
